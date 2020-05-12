@@ -1,0 +1,19 @@
+{
+  "name": "calendar-challenge",
+  "version": "1.0.0",
+  "description": "API Capable of managing users and their events in a calendar manner.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "calendar",
+    "javascript"
+  ],
+  "author": "Tomas Gonzalez Oviedo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3"
+  }
+}
