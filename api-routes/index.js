@@ -3,7 +3,7 @@ const router = require('express').Router();
  * usersOperations: C.R.U.D. *
  * The idea here is index.js works as an entry point for the entire app *
  * which means that every route will go trough here then to the controller *
- * So the workflow would be: Server.js -> api-routes/index.js -> routes -> controller -> model *
+ * So the workflow would be: Server.js -> api-routes/index.js -> routes -> middleware -> controller -> model *
  * */
 const usersOps = require('./users/users');
 
